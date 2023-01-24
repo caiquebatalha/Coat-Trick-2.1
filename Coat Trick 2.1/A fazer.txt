@@ -20,4 +20,5 @@ Página de funcionarios
  
 Pádina de error
 
-Página de do Produto
+Página de do Produto (foto, titulo, subtitulo (se é masculino ou feminino), Seletor de tamanho e quantidade e preço, botões de "Comprar agora" e "Adicionar ao carrinho")
+
