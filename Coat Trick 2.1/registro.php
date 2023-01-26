@@ -1,10 +1,10 @@
 <?php
 session_start();
-include_once("conexaobd.php");
+include_once("conexao.php");
 
-$nome = $_POST['nome'];
-$sobrenome = $_POST['sobrenome']
+$nomesobrenome = $_POST['nomesobrenome'];
 $email = $_POST['email'];
+$telefone = $_POST['telefone'];
 $cpf = $_POST['cpf'];
 
 // echo $nomesobrenome, '<br>';
@@ -12,7 +12,7 @@ $cpf = $_POST['cpf'];
 // echo $telefone, '<br>';
 // echo $cpf, '<br>';
 
-$result_usuario = "INSERT INTO `cliente` (`idCliente`, `nomeCliente`, `emailCliente`, `cpfCliente`,'sobrenomeCliente') VALUES (NULL, '$nome','$sobrenome','$email','$cpf'  )";
+$result_usuario = "INSERT INTO `passageiro` (`idPassageiro`, `nomePassageiro`, `cpfPassageiro`, `telefonePassageiro`, `emailPassageiro`) VALUES (NULL, '$nomesobrenome', '$cpf', '$telefone', '$email')";
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 if (mysqli_insert_id($conn)){
