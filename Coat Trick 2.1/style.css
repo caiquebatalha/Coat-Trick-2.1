@@ -44,6 +44,14 @@
 #txt{
     text-align: center;
 }
+#vlrcarrinho{
+    padding-left: 160px;
+}
+#quantidade{
+    max-width: 60px;
+
+
+}
 
 @media screen and (max-width:800px){
     #carrossel{
@@ -71,6 +79,20 @@
         justify-content: center;
 
     }
+    #vlrcarrinho{
+        padding-left: 0;
+        margin: 20px;
+
+    }
+    #quantidade{
+        max-width: 60px;
+        margin-left: 40%;
+
+    }
+    .pagcarrinho{
+        text-align: center;
+    }
+
     
 }
 form button{
@@ -79,6 +101,8 @@ form button{
 .coattrick{
 text-align: center;
 
+}
+.pagcarrinho{
 
 }
 
