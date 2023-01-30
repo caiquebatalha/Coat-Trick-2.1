@@ -29,3 +29,15 @@ Máscaras do Cadastro
 Carrinho (preço, total e quantidade)
 
 
+
+
+
+30/01
+
+Banco de dados/JG
+Máscaras/Caique
+Catálogos/JG
+Resgistros
+Menu Principal adicionar Catalogo
+Adicionar Area de Funcionários
+Adicionar área dos clientes
