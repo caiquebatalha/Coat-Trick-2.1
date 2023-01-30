@@ -1,6 +1,6 @@
 Banco 
 
-Area administrativa 
+Area do funcionário
 
 Valisação do campo
 
@@ -20,5 +20,24 @@ Página de funcionarios
  
 Pádina de error
 
+colocar catálogo
+
 Página de do Produto (foto, titulo, subtitulo (se é masculino ou feminino), Seletor de tamanho e quantidade e preço, botões de "Comprar agora" e "Adicionar ao carrinho")
 
+Máscaras do Cadastro
+
+Carrinho (preço, total e quantidade)
+
+
+
+
+
+30/01
+
+Banco de dados/JG
+Máscaras/Caique
+Catálogos/JG
+Resgistros
+Menu Principal adicionar Catalogo
+Adicionar Area de Funcionários
+Adicionar área dos clientes
