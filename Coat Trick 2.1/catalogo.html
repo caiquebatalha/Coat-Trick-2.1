@@ -42,12 +42,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: black;">
+                              Catálogos
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="catalogo.html">Catálogo Masculino</a></li>
+                              <li><a class="dropdown-item" href="catalogoF.html">Catálogo Feminino</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="sobre.html">Sobre</a>
                     </li>
                     <li class="nav-item">
-
+                        <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
+                    </li>
                     <li class="nav-item">
-
                 </ul>
                 <form class="d-flex">                                    
                     <a href="carrinho.html">
@@ -71,6 +82,33 @@
     </div>
 
     <p class="p-3"></p>
+
+    <div id="stilo" style="text-align: center; background-color: black;">
+     
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+              
+                <img id="carrossel" src="img/Carrossel01.jpg" class= "d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img id="carrossel" src="img/Carrossel02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img id="carrossel" src="img/Carrossel03.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
 
     <div class="container">
         <div class="row border shadow rounded text-center" style="background-color: rgb(255, 255, 255);">
