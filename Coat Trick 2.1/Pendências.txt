@@ -1,0 +1,64 @@
+>>Banco (criar banco) 
+>> Area do funcionário (Área Administrativa)
+>>Validação do campo (bootstrap) 
+>>Conexão com o campo (Conexão para o banco através do form)
+>> Responsividade de texto
+>> Acertar Rodapé
+>> Desenhar modelo Conceitual e lógico(Acertar)
+>> Documentação(Wireframes, dicionário de dados) 
+>> Banners (Adicionar outros banners) 
+>> Alterar página "contate-nos"
+
+-----------------------------------
+
+21979888085
+
+@coattrick
+
+-----------------------------------
+
+
+Catálogo Masculino (ok)
+
+----------------------------------
+
+>> Catálogo Feminino (Criar catálogo feminino)
+
+----------------------------------
+
+Página de erro
+
+---------------------------------
+
+Página de do Produto (Editar) 
+
+(foto, titulo, subtitulo (se é masculino ou feminino), Seletor de tamanho e quantidade e preço, botões de "Comprar agora" e "Adicionar ao carrinho")
+
+---------------------------------
+
+Máscaras do Cadastro (Mascara de CPF) 
+
+---------------------------------
+
+Carrinho (preço, total e quantidade)
+
+---------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Máscaras/Caique
+Resgistros
+Menu Principal adicionar Catalogo
+Adicionar Area de Funcionários
+Adicionar área dos clientes
