@@ -7,8 +7,10 @@
     <title>Coat Trick</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="img/icone.jpg" type="image/x-icon">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
     body {
@@ -114,9 +116,10 @@
                     alt="..." style="margin-top: 50px; margin: 10px;">
                 </div>
               <div class="col-md-8">
-                <div class="card-body" style="margin-top: 50px; margin: 10px;">
-                  <h1 class="card-title">Porque comprar um corta-vento?</h1>
-                  <p id="textopromocao">Desde sempre, a principal característica do windbreaker é o fato de que ele protege contra os ventos fortes, amenizando as sensações térmicas nos dias mais frios. Além disso, alguns modelos são impermeáveis, fazendo com que os conjuntos corta vento ou peças avulsas sejam muito vistos nas regiões de praia. Isso porque ela não superaquece o corpo, podendo ser usada em regiões e ocasiões de frio ou temperaturas amenas.
+                <div class="card-body" style="margin-top: 50px; margin-right: 10px;">
+                  <h1 class="card-title" style="font-family: 'Bowlby One SC', cursive;font-size: 40px">Por que comprar um corta-vento?</h1>
+                 <p class="p-1"></p>
+                  <p style="text-align: justify; font-size: 20px; margin-right: 50px; font-family: 'Plus Jakarta Sans', sans-serif; ">Desde sempre, a principal característica do windbreaker é o fato de que ele protege contra os ventos fortes, amenizando as sensações térmicas nos dias mais frios. Além disso, alguns modelos são impermeáveis, fazendo com que os conjuntos corta vento ou peças avulsas sejam muito vistos nas regiões de praia. Isso porque ela não superaquece o corpo, podendo ser usada em regiões e ocasiões de frio ou temperaturas amenas.</p>
 
                 </div>
               </div>
@@ -238,39 +241,53 @@
                     <h5 class="modal-title" id="staticBackdropLabel">Cadastro</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <form name="cadastro" method="post" action="registro.php"></form>
-                            <div class="col">
-                                <input type="text" class="form-control rounded" placeholder="nome">
-                                 </div>
-                            <div class="col">
-                                <input type="text" class="form-control rounded" placeholder="Sobrenome" name="sobrenome" >
+                <div class="modal-body">                        
+                            <p class="p-1"></p>
+                            <form action="registro.php" name="cadastro" method="post">
+                            <div class="container">
+                            <!-- PRIMEIRA LINHA -->
+                            <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control rounded" name="nome" placeholder="Nome">
                             </div>
-                            <p></p>
-                            <input style="margin-left: 10px; width: 95%;" type="email" class="form-control rounded" placeholder="E-mail" name="email">
-                            <p></p>
-                            <input style="margin-left: 10px; width: 95%;" type="text" class="form-control rounded" placeholder="CPF" name="cpf" id="cpf">
-                            <p></p>
-                            <div class="col">
-                                <input type="password" class="form-control rounded" placeholder="Senha" name="senha" id="password" required>
+                            <div class="col-sm">
+                            <input type="text" class="form-control rounded" placeholder="Sobrenome" name="sobrenome">
                             </div>
-                            <div class="col">
-                                <input type="password" class="form-control rounded" placeholder="Confirmar" id="confirm_password" required>
-                            </div>
-                            <input type="submit">
                         </div>
-                    </div>
-                </div>
+                        <!-- SEGUNDA LINHA -->
+                        <div class="row">
+                            <p class="p-0.5"></p>
+                            <div class="col-sm-12">
+                            <input type="text" class="form-control rounded" placeholder="CPF" name="cpf" id="cpf">
+                        </div>                           
+                        </div>
+                        <!-- TERCEIRA LINHA -->
+                        <div class="row">
+                        <p class="p-0.5"></p>
+                        <div class="col-sm-12">
+                        <input type="email" class="form-control rounded" placeholder="E-mail" name="email">
+                        </div>
+                        </div>
+                        <!-- QUARTA LINHA -->
+                        <p class="p-0.5"></p>
+                        <div class="row">
+                        <div class="col-sm-6">
+                          <input type="password" class="form-control rounded" placeholder="Senha" name="senha" id="password" required>
+                        </div>
+                        <div class="col-sm">
+                    <input type="password" class="form-control rounded" placeholder="Confirmar senha" id="confirm_password" required>
+                      </div>
+                        </div>
+                            </div>
+                                </div>  
                 <div class="modal-footer">
-                     <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Fechar</button>
-                     <input type="submit" button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"></button>
-                </div>
-            </div>
-        </div>
+                    <input type="submit"  type="button" class="btn btn-outline-dark" data-bs-toggle="modal"></button>
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Fechar</button>
+                </form>      
     </div>
-
+    </div>
+    </div>
+    </div>
     <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -291,8 +308,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cadastra-se</button>
-                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal" >Fechar</button>
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cadastre-se</button>
                     <button type="button" class="btn btn-outline-dark">Entrar</button>
                 </div>
             </div>
@@ -327,7 +343,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
-    <script src="dados.js"></script>
+    <script src="js/dados.js"></script>
 </body>
 
 </html>
